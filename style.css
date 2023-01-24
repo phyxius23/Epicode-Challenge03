@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+
+/* CSS Generale */
+body {
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.main-section {
+   padding: 20px;
+}
+
+.image-container {
+   height: 500px;
+   width: 100%;
+   background: #efefef;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+h1, h3 {
+   font-family: 'Prata', serif;
+   font-weight: 400;
+   margin-bottom: 0;
+}
+
+h1 {
+   font-size: 64px;
+}
+
+h3 {
+   font-size: 24px;
+   margin-top: 0;
+}
+
+a {
+   font-style: italic;
+   font-weight: 600;
+}
+
+h6 {
+   padding: 22px;
+   margin-bottom: 0;
+   margin-top: 56px;
+   color: #fff;
+   border-radius: 6px;
+   background: #000;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+ul li {
+   padding: 6px 0 6px 22px;
+   border-bottom: 1px solid #dfdfdf;
+}
+
+ul li a {
+   text-decoration: none;
+}
+
+.footer {
+   background: #000;
+   color: #fff;
+   padding: 16px;
+}
+
+.footer a {
+   color: #fff;
+   font-weight: 600;
+   display: block;
+   text-align: center;
+}
+
+/* CSS index.html */
+.bg-giordania .image-container {
+   background-image: url('https://images.unsplash.com/photo-1554322662-abedea4ed292?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2116&q=80');
+}
+
+.bg-giordania h6 {
+   background: linear-gradient(90deg, rgba(46,20,0,1) 0%, rgba(154,100,67,1) 100%);
+}
+
+.bg-giordania ul li a:visited {
+   color: #2e1400; /* utilizzare primo colore del gradiente */
+}
+
+/* CSS giza.html */
+.bg-egitto .image-container {
+   background-image: url('https://images.unsplash.com/photo-1655153993338-80dc06d70579?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2092&q=80');
+}
+
+.bg-egitto h6 {
+   background: linear-gradient(90deg, rgba(11,41,108,1) 0%, rgba(17,62,167,1) 100%);
+}
+
+.bg-egitto ul li a:visited {
+   color: #0B296C; /* utilizzare primo colore del gradiente */
+}
+
+/* CSS muraglia-cinese.html */
+.bg-cina .image-container {
+   background-image: url('https://images.unsplash.com/photo-1608037521277-154cd1b89191?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+}
+
+.bg-cina h6 {
+   background: linear-gradient(90deg, rgba(20,43,12,1) 0%, rgba(45,96,27,1) 100%);
+}
+
+.bg-cina ul li a:visited {
+   color: #142B0C; /* utilizzare primo colore del gradiente */
+}
+
+/* CSS chichen-itza.html */
+.bg-messico .image-container {
+   background-image: url('https://images.unsplash.com/photo-1582554457597-e07633fba044?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80');
+}
+
+.bg-messico h6 {
+   background: linear-gradient(90deg, rgba(69,69,71,1) 0%, rgba(91,90,94,1) 100%);
+}
+
+.bg-messico ul li a:visited {
+   color: #454547; /* utilizzare primo colore del gradiente */
+}
+
+/* CSS machu-picchu.html */
+.bg-peru .image-container {
+   background-image: url('https://images.unsplash.com/photo-1620768237794-f3bfe964f9f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80');
+}
+
+.bg-peru h6 {
+   background: linear-gradient(270deg, rgba(69,69,71,1) 0%, rgba(46,80,19,1) 100%);
+}
+
+.bg-peru ul li a:visited {
+   color: #2E5013; /* utilizzare primo colore del gradiente */
+}
+
+/* CSS taj-mahal.html */
+.bg-india .image-container {
+   background-image: url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
+}
+
+.bg-india h6 {
+   background: linear-gradient(270deg, rgba(90,116,129,1) 0%, rgba(61,78,87,1) 100%);
+}
+
+.bg-india ul li a:visited {
+   color: #3D4E57; /* utilizzare primo colore del gradiente */
+}
